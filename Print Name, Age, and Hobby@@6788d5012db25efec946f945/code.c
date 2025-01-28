@@ -6,7 +6,7 @@ int main() {
 
     printf("Name: %c\n",a);
     printf("Age: %d\n",c);
-    printf("Hobby: %d\n",b);
+    printf("Hobby: %c\n",b);
 
     return 0;
 }
