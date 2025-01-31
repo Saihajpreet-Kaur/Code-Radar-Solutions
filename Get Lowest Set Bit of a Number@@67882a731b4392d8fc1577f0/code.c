@@ -8,6 +8,6 @@ int main() {
         return 0;
     }
     int position = log2(num & -num);
-    printf("%d",position);
+    printf("%d\n",position);
     return 0;
 }
