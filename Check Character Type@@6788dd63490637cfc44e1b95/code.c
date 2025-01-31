@@ -4,8 +4,7 @@ int main() {
     scanf("%c",&c);
     
     switch(c){
-        case 'A':case 'E':case 'I':case 'O':case 'U':case 'a':case 'e':case 'i':case 'o':case 'u':
-        printf("Vowels");
+        case 'A':case 'E':case 'I':case 'O':case 'U':case 'a':case 'e':case 'i':case 'o':case 'u':printf("Vowels");
         break;
     }
     default:
