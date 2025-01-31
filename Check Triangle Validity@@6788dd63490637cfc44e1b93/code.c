@@ -5,7 +5,7 @@ int main() {
     if(h*h=p*p+b*b){
         printf("Valid");
     }else{
-        printf("Invalid")
+        printf("Invalid");
     }
     return 0;
 }
