@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
-    int sum;
-    scanf("%d",&sum);
+    int num;
+    scanf("%d",&num);
     if(num%5==0 && num%3==0){
         printf("Divisible by Both");
     }else if(num%5==0){
