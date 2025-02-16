@@ -6,10 +6,10 @@ int main() {
         if(num%i==0){
             printf("Not Prime");
             break;
-        }else{
-            printf("Prime");
-            
         }
+            
+        
     }
+    printf("Prime");
     return 0;
 }
