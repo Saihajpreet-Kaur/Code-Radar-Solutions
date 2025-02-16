@@ -8,6 +8,7 @@ int main() {
             break;
         }else{
             printf("Prime");
+            break;
         }
     }
     return 0;
