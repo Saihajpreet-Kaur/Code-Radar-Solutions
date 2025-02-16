@@ -7,7 +7,7 @@ int main() {
         case 'A':case 'E':case 'I':case 'O':case 'U':case 'a':case 'e':case 'i':case 'o':case 'u':
         printf("Vowels");
         break;
-    }
+    
     default:
         if((c>='A'&&c<='Z') || (c>='a'&&c<='z')){
             printf("Consonant");
@@ -18,6 +18,6 @@ int main() {
         else{
             printf("Special Character");
         }
-
+    }
     return 0;
 }
