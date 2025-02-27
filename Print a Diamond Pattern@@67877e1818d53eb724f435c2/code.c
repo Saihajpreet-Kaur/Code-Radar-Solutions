@@ -10,8 +10,9 @@ int main(){
         for(int m=1;m<=2*n-1;m++){
             printf("*");
         }
+        printf("\n");
     }
-    printf("\n");
+    
     for(int i=n-1;i>0;i++){
         for(int j=1;j<=n-1;j++){
             printf(" ");
@@ -19,8 +20,9 @@ int main(){
         for(int m=1;m<=2*n-1;m++){
             printf("*");
         }
+        printf("\n");
     }
-    printf("\n");
+    
     return 0;
     
 }
