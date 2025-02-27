@@ -4,6 +4,10 @@ int main(){
     int n;
     scanf("%d",&n);
     for(int i=n;i>1;i--){
-        printf("*");
+        for(int j=i;j>1;j--){
+            printf("*");
+        }
+        
     }
+    printf("\n");
 };
