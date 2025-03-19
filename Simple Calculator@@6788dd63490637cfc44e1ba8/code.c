@@ -4,15 +4,15 @@ int main() {
     char ch;
     scanf("%d %d %*c%c", &num1, &num2, &ch);
     
-    if(ch=="+"){
+    if(ch=='+'){
         printf("%d\n",num1 + num2);
-    }else if(ch=="-"){
+    }else if(ch=='-'){
         printf("%d\n",num1 - num2);
-    }else if(ch=="*"){
+    }else if(ch=='*'){
         printf("%d\n",num1 * num2);
-    } else if(ch =="/"){
+    } else if(ch =='/'){
         if (num2==0){
-            printf("error")
+            printf("error");
         }else{
             printf("%d\n",num1/num2);
         }
