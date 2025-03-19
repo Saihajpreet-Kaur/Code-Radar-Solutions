@@ -4,13 +4,14 @@ int main(){
     scanf("%d",&n);
     for(int i=1;i<=n;i++){
         //printing leading spaces for proper triangle alignment
-        for(int j=1;j<=n;j++){
+        for(int j=1;j<=n-i;j++){
             printf(" ");
         }
         //Print increasing numbers
         for(int j=1;j<=i;j++){
             printf("%d",j);
         }
+        //Print decreasing numbers
         for(int j= i-1;j>=1;j--){
             printf("%d",j);
         }
