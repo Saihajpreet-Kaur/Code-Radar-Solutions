@@ -9,7 +9,8 @@ int main(){
             num=1^num;
         }
         printf("\n");
-        num=1;
+        
     }
+    num=1^num;
     return 0;
 }
