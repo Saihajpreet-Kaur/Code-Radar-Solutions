@@ -11,6 +11,6 @@ int main(){
         printf("\n");
         
     }
-    num=1^num;
+    num=1;
     return 0;
 }
