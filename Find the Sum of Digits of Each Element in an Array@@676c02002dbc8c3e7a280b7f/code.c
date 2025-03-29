@@ -4,7 +4,7 @@ int count(int num){
     int count=0;
     while(num>0){
         element= num%10;
-        count+=num;
+        count+=element;
         num/=10;
     }
     return count;
