@@ -14,7 +14,7 @@ int main(){
         if(arr[i]%2==0){
             ecnt+=1;
         }else{
-            ocnt=1;
+            ocnt+=1;
         }
     }
     printf("%d %d\n",ecnt,ocnt);
