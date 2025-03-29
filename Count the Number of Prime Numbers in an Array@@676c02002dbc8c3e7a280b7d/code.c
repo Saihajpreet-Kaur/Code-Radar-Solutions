@@ -37,7 +37,7 @@ int isPrime(int num){
     if(num<=1){
         return 0;
     }else{
-        for(int j=0;j*j<2;j++){
+        for(int j=0;j*j<num;j++){
             if(num%j==0){
                 return 0;
             }
