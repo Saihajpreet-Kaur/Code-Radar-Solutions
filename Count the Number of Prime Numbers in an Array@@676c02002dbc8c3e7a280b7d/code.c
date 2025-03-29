@@ -15,7 +15,7 @@ int main(){
         if(arr[i]<=1){
             isPrime=0;
         }else{
-            for(int j=0;j*j<=N;j++){
+            for(int j=1;j*j<=N;j++){
                 if(arr[i]%j==0){
                     isPrime=0;
                     break;
