@@ -8,7 +8,7 @@ int main(){
         scanf("%d",&arr[N]);
     }
 
-    int count=0, candidate=0;
+    int count=0, candidate=-1;
     for(int i=0;i<N;i++){
         if(count == 0){
             candidate=arr[i];
