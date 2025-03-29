@@ -2,6 +2,7 @@
 int count(int num){
     int element=0;
     int count=0;
+    if(num<0) num=-num;
     while(num>0){
         element= num%10;
         count+=element;
