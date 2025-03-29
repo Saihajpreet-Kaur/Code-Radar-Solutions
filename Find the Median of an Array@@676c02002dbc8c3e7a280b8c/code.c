@@ -12,7 +12,7 @@ int main(){
         medi=(arr[N/2]+arr[(N/2)+1])/2;
         printf("%d",medi);
     }else{
-        printf("%d",N/2);
+        printf("%d",N+1/2);
     }
     return 0;
 }
