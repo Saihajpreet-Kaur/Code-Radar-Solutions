@@ -53,7 +53,7 @@ int main(){
     int count=0;
     int arr[N];
     for(int i=0;i<N;i++){
-        scanf("%d",&arr[N]);
+        scanf("%d",&arr[i]);
         if(isPrime(arr[i])){
             count++;
         }
