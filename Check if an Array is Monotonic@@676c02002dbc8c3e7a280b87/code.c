@@ -9,7 +9,7 @@ int main(){
     }
 
     int isMonotonic=0;
-    for(int i=0;i<N;i++){
+    for(int i=0;i<N-1;i++){
         if(arr[i]>arr[i+1] || arr[i]<arr[i+1]){
             isMonotonic=1;
         }
