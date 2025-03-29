@@ -20,7 +20,7 @@ int main(){
         }
     }
 
-    int count =0;
+    count =0;
     for(int i=0;i<N;i++){
         if(arr[i]==candidate){
             count ++;
