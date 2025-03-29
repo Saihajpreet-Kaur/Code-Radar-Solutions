@@ -21,6 +21,6 @@ int main(){
         }
         
     }
-    printf("%d",countmax);
+    printf("%d",arr[i]);
     return 0;
 }
