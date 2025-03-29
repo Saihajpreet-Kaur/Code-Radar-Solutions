@@ -19,7 +19,7 @@ int main(){
         temp[i]=0;
     }
     for(int i=0;i<N;i++){
-        printf("%d",temp[i]);
+        printf("%d\t",temp[i]);
     }
     return 0;
 }
