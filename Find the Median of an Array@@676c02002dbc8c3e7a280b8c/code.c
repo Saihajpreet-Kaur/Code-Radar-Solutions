@@ -9,10 +9,10 @@ int main(){
     }
     if(N%2==0){
         int medi=0;
-        medi=(arr[N/2]+arr[(N/2)+1])/2;
+        medi=(arr[N/2]+arr[(N/2)-1])/2;
         printf("%d",medi);
     }else{
-        printf("%d",N+1/2);
+        printf("%d",N/2);
     }
     return 0;
 }
