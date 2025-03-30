@@ -12,7 +12,7 @@ int main(){
     int flag=0;
     for(int i=0;i<N;i++){
         if(arr[i]%2==0){
-            if(arr[i]>largestev){
+            if(!flag || arr[i]>largestev){
                 largestev=arr[i];
                 flag=1;
             }
