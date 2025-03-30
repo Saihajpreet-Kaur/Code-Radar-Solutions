@@ -9,7 +9,7 @@ int main(){
     }
     int maxright=-1;
 
-    for(int i=N-1;i>0;i--){
+    for(int i=N-1;i>=0;i--){
         int temp=arr[i];
         arr[i]=maxright;
         if(temp>maxright){
