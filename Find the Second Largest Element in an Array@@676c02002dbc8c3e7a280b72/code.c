@@ -8,9 +8,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
 
-    if(N<2){
-        return -1;
-    }
+    
     int largest=arr[0];
     int sndlargest=-1;
 
