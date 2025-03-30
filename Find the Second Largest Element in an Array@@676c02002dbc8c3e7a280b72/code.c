@@ -14,15 +14,23 @@ int main(){
     
     int largest=arr[0];
     int sndlargest=arr[0];
+    int flag=0;
 
     for(int i=0;i<N;i++){
         if(arr[i]>largest){
             sndlargest=largest;
             largest=arr[i];
+            flag=1;
         }else if( arr[i]>sndlargest && arr[i]!=largest){
             sndlargest=arr[i];
+            flag=1;
         }
     }
-    printf("%d\n",sndlargest);
+    if(flag){
+        printf("%d\n",sndlargest);
+    }else{
+        printf("-1\n");
+    }
+    
     return 0;
 }
