@@ -8,8 +8,9 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int maxright=-1;
+
     for(int i=N-1;i>0;i--){
-        temp=arr[i];
+        int temp=arr[i];
         arr[i]=maxright;
         if(temp>maxright){
             maxright=temp;
