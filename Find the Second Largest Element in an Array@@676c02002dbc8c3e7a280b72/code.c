@@ -13,7 +13,7 @@ int main(){
     }
     
     int largest=arr[0];
-    int sndlargest=arr[0];
+    int sndlargest=-10000001;
     int flag=0;
 
     for(int i=0;i<N;i++){
