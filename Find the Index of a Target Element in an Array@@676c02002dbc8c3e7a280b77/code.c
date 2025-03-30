@@ -17,6 +17,7 @@ int main(){
         if(arr[i]==target){
             ind=i;
             flag=1;
+            return 0;
         }
     }
     if(flag){
