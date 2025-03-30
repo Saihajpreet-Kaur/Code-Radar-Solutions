@@ -17,6 +17,7 @@ int main(){
                  break;
             }
         }
+        if(flag) break;
     }
     if(flag){
         printf("%d\n",num);
