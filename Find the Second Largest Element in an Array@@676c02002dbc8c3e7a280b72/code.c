@@ -7,10 +7,13 @@ int main(){
     for(int i=0;i<N;i++){
         scanf("%d",&arr[i]);
     }
-
+    if(N<2){
+        printf("-1\n");
+        return 0;
+    }
     
     int largest=arr[0];
-    int sndlargest=-1;
+    int sndlargest=arr[0];
 
     for(int i=0;i<N;i++){
         if(arr[i]>largest){
