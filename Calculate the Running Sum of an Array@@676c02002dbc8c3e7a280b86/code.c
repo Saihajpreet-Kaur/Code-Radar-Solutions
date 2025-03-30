@@ -14,7 +14,7 @@ int main(){
         temp[i]=arr[i]+arr[i-1];
     }
     for(int i=0;i<N;i++){
-        printf("%d",temp[i]);
+        printf("%d ",temp[i]);
     }
     return 0;
     
