@@ -10,7 +10,7 @@ int main(){
 
     for(int i=1;i<=N+1;i++){
         int found=0;
-        for(int j=1;j<N;j++){
+        for(int j=0;j<N;j++){
             if(arr[j]==i){
                 found=1;
                 break;
